@@ -1,9 +1,12 @@
 package controller;
 
+import model.ArrayListStack;
+import model.Stack;
+
 public class InfixToPostfix {
 
 
-    private Stack stack;
+    Stack<Character> stack = new ArrayListStack<>();
 
     public InfixToPostfix(Stack stack) {
         this.stack = stack;
